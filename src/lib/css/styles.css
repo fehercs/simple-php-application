@@ -9,7 +9,12 @@ body {
 }
 
 .nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
     border-bottom: 1px solid #2E2E24;
+    background-color: #F0EFEB;
 }
 
 #title {
@@ -33,7 +38,21 @@ body {
     box-shadow: inset 7px 7px 7px #dfdedb,
     inset -7px -7px 7px #fffffb;
 }
+
+.button:hover {
+    background-color: #E5E3DC;
+}
+
+.button:active {
+    background-color: #DCDAD0;
+    box-shadow: inset 13px 13px 7px #dfdedb,
+    inset -13px -13px 7px #fffffb;
+}
+
 #landing {
+    position: fixed;
+    top: 50%;
+    left: 50%;
     margin-top: -75px;
     margin-left: -200px;
     width: 400px;
@@ -41,10 +60,20 @@ body {
 }
 
 .card {
-    position: fixed;
-    top: 50%;
-    left: 50%;
     border-radius: 44px;
     box-shadow:  13px 13px 44px #cececa,
     -13px -13px 44px #ffffff;
+}
+
+.list-container {
+    max-width: 60%;
+    margin-left: 20%;
+    margin-top: 10rem;
+}
+
+.list-container li {
+    list-style-type: none;
+    border-bottom: 1px solid #2E2E24;
+    padding: 5pt;
+    color: #2E2E24;
 }
