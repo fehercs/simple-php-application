@@ -1,7 +1,7 @@
 # simple-php-application
 This is a simple dockerized PHP application with PDO and a MySQL database.
 
-###Startup
+### Startup
 
 Start the application with the following
 [`docker-compose up`]
